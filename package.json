@@ -1,0 +1,24 @@
+
+{
+    "scripts": {
+      "start": "node ./js/app.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "event-source-polyfill": "0.0.7",
+      "eventsource": "^0.2.1",
+      "body-parser": "^1.15.1",
+      "express": "^4.14.0",
+      "ip": "^1.1.4",
+      "jquery": "^3.1.1",
+      "react": "^15.2.0",
+      "react-dom": "^15.2.0"
+    },
+    "engines": {
+      "node": "6.9.1"
+    },  
+    "devDependencies": {
+      "path": "^0.12.7"
+    }
+}
+  
