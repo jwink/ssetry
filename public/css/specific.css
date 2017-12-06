@@ -1,0 +1,25 @@
+
+/*
+body {
+    background-color: green;
+}
+*/
+
+body {
+    font-size: 20px;
+}
+
+.jw-1 {
+    background-color: #222222;
+    color: white;
+}
+
+.jw-center-text {
+    text-align: center;
+}
+
+.jw-padding-top-bottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
