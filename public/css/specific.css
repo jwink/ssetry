@@ -1,17 +1,36 @@
 
 /*
-body {
-    background-color: green;
-}
+palette:
+
+#323f61;
+#ccbbaf;
+#3e5855;
+#f5dd90;
+#aaaaaa;
+
 */
+
+
+
+
+
+body {
+    background-color: #ccbbaf;
+}
+
 
 body {
     font-size: 20px;
 }
 
+.jw-green {
+    background-color: #3e5855;
+    color: #aaaaaa;
+}
+
 .jw-1 {
-    background-color: #222222;
-    color: white;
+    background-color: #323f61;
+    color: #f5dd90;
 }
 
 .jw-center-text {

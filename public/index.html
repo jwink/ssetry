@@ -12,17 +12,58 @@ src="https://code.jquery.com/jquery-3.2.1.js"
 integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 crossorigin="anonymous"></script>
 
-  <div id="main">Hello World</div>
-  <button id="click-me-button">Click Me</button>
 
   <div class="w3-container jw-1 jw-center-text">
       <div class="jw-padding-top-bottom">Middle</div>
   </div>
   
   <div class="w3-container jw-center-text">
+    <input class="w3-input w3-border w3-round" type="text">
     <button>Whattup</button>
   </div>
+
+  <div class="w3-row">
+      <div class="w3-quarter w3-container">
+      </div>
+      <div class="w3-half w3-container jw-green jw-center-text">
+        <h2>w3-half</h2> 
+      </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-col m2 l2 w3-container">
+        </div>
+        <div class="w3-col m8 l8 jw-center-text">
+            <input class="w3-input w3-border w3-round-large" type="text">
+        </div>
+      </div>
+
+      <div class="w3-row">
+          <div class="w3-col m4 l4 w3-container">
+          </div>
+          <div class="w3-col m4 l4 jw-center-text">
+              <button class="w3-button
+                             w3-ripple
+                             jw-green
+                             w3-block
+                             w3-round-xlarge
+                             w3-border
+                             w3-border-white">Button</button>
+          </div>
+        </div>
   
-  <script src="js\bundle.js"></script>
+        <div class="w3-row">
+            <div class="w3-col m2 l2 w3-container">
+            </div>
+            <div class="w3-col m8 l8 jw-center-text">
+                <textarea class="w3-block w3-round-large" rows="6"></textarea>
+            </div>
+          </div>        
+
+      <div id="main" class="w3-button w3-block">Hello World</div>
+      <button id="click-me-button">Click Me</button>
+    
+
+      <script src="js\bundle.js"></script>
 </body>
 </html>
